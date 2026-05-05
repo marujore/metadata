@@ -164,16 +164,44 @@
     ],
     "summaries": null,
     "item_assets": {
-        "single_level_vars_cams_global_acf": {
+        "single_level_vars_cams_global_acf_pm2p5" : {
             "type": "application/x-netcdf",
-            "title": "Variables Provided on a Single Fixed Level Without Vertical Structure",
+            "title": "PM2p5 Variable Provided on a Single Fixed Level Without Vertical Structure",
             "roles": [
                 "data"
             ]
         },
-        "mult_level_vars_cams_global_acf": {
+        "single_level_vars_cams_global_acf_pm10" : {
             "type": "application/x-netcdf",
-            "title": "Atmospheric Variables Provided on Multiple Vertical Levels",
+            "title": "PM10 Variable Provided on a Single Fixed Level Without Vertical Structure",
+            "roles": [
+                "data"
+            ]
+        },
+        "mult_level_vars_cams_global_acf_co": {
+            "type": "application/x-netcdf",
+            "title": "Carbon Monoxide Variable Provided on Multiple Vertical Levels",
+            "roles": [
+                "data"
+            ]
+        },
+        "mult_level_vars_cams_global_acf_go3": {
+            "type": "application/x-netcdf",
+            "title": "Ozone Variable Provided on Multiple Vertical Levels",
+            "roles": [
+                "data"
+            ]
+        },
+        "mult_level_vars_cams_global_acf_no2": {
+            "type": "application/x-netcdf",
+            "title": "Nitrogen Dioxide Variable Provided on Multiple Vertical Levels",
+            "roles": [
+                "data"
+            ]
+        },
+        "mult_level_vars_cams_global_acf_so2": {
+            "type": "application/x-netcdf",
+            "title": "Sulfur Dioxide Variable Provided on Multiple Vertical Levels",
             "roles": [
                 "data"
             ]
